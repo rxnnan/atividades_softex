@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655782354 source:f:\users\renan\downloads\bubble_sort\main.c
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
