@@ -35,7 +35,7 @@ print("\n------------------------------------")
 
 # CRIANDO a árvore
 def arvore_2():
-    lista1 = [15, 6, 18, 3, 7, 16, 20, 4]
+    lista2 = [15, 6, 18, 3, 7, 16, 20, 4]
     arvore = ArvoreBinariaDeBusca()
     for x in lista1:
         arvore.insere(x)
