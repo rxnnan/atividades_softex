@@ -6,16 +6,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import br.com.empresa.pessoa.*;
 
-// public static void limparTela() {
-//     try {
-//         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-//     } catch (Exception e) {
-//         System.out.println(e.getMessage());
-//     }
-// }
-
-
-
 public class Teste {
     public static void main(String[] args) throws Exception {
         criarArquivoSerializado();
