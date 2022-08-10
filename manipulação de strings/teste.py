@@ -5,7 +5,7 @@ def contaLetra(palavra, caractere):
 
 def maiusculo(palavra):
     aux = palavra.upper()
-    print(f"Colocando todas as letras da string {palavra} em maiúscolo vamos ter: {aux}")
+    print(f"Colocando todas as letras da string {palavra} em maiúsculo vamos ter: {aux}")
     return aux
 
 def tamanhoString(palavra):
