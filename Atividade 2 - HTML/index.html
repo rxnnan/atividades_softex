@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/130313e74a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Turistando na Europa</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bons pontos turísticos para se visitar na Europa</h1>
+    </header>
+    <hr noshade="" size="3" />
+    <div>
+      <h3>
+        Confira abaixo alguns cards com lugares que, com certeza, valem a pena
+        ser visitados em uma viagem para a Europa.
+      </h3>
+    </div>
+    <section class="row">
+      <div class="card">
+        <img src="imgs/amsterdã.jpg" alt="Foto do lugar" style="width: 100%" />
+        <div class="container">
+          <h4><b>Amsterdã</b></h4>
+          <p class="texto-card">
+            Amsterdã é a capital da Holanda, conhecida por seu patrimônio
+            artístico, um elaborado sistema de canais e casas estreitas com
+            telhados de duas águas, legados da era dourada do século XVII na
+            cidade. O bairro de museus abriga o Museu Van Gogh, o Rijksmuseum,
+            com obras de Rembrandt e Vermeer, e o Stedelijk, que privilegia a
+            arte moderna. O ciclismo é uma característica essencial da cidade.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="imgs/estocolmo.jpg" alt="Foto do lugar" style="width: 100%" />
+        <div class="container">
+          <h4><b>Estocolmo</b></h4>
+          <p class="texto-card">
+            Estocolmo, a capital da Suécia, abrange 14 ilhas e mais de 50 pontes
+            em um arquipélago extenso no Mar Báltico. Com ruas pavimentadas com
+            pedras arredondadas e construções de cor ocre, Gamla Stan abriga a
+            Catedral de Estocolmo, que data do século XIII, o Palácio Real de
+            Estocolmo e o Museu Nobel, dedicado ao Prêmio Nobel. Há balsas de
+            turismo que transportam os passageiros entre as ilhas.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="imgs/vaticano.jpg" alt="Foto do lugar" style="width: 100%" />
+        <div class="container">
+          <h4><b>Vaticano</b></h4>
+          <p class="texto-card">
+            A Cidade do Vaticano, uma cidade-estado cercada por Roma, Itália, é
+            a sede da Igreja Católica Romana. Ela é a residência do Papa e está
+            repleta de tesouros da arte e da arquitetura. Os Museus Vaticanos
+            abrigam antigas esculturas romanas, como o conhecido "Grupo de
+            Laocoonte", além de afrescos renascentistas nas Estâncias de Rafael
+            e na Capela Sistina, famosa pelo teto de Michelangelo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr noshade="" size="3" />
+    <form action="">
+      <p>DEIXE UM COMENTÁRIO</p>
+      <div>
+        <label for="comentario">Comentário:</label>
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          placeholder="Digite aqui o seu comentário..."
+        ></textarea>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite aqui o seu nome..."
+        />
+        <label for="email">E-mail: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite aqui o seu e-mail..."
+        />
+      </div>
+      <input
+        type="submit"
+        value="Enviar"
+        style="margin-left: 25%; margin-top: 5px; margin-bottom: 5px"
+      />
+    </form>
+    <footer>
+      Caso queira entrar em contato:
+      <nav>
+        <a href="https://www.instagram.com/rennancarbas/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/rennan.carbas/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://github.com/rxnnan" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
+
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 30%;
+      border-radius: 5px;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .card:hover {
+      box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.514);
+      color: black;
+      transform: translateY(-5px);
+    }
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    .container {
+      padding: 2px 16px;
+    }
+
+    .texto-card {
+      text-align: justify;
+    }
+
+    h4,
+    h3,
+    h1,
+    p {
+      text-align: center;
+    }
+
+    a {
+      color: black;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      padding-top: 20px;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    #comentario {
+      display: block;
+      flex-direction: column;
+      width: 50%;
+      height: 120px;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 25%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    #nome,
+    #email {
+      width: 50%;
+      display: block;
+      padding: 5px;
+      border-radius: 5px;
+      margin-left: 25%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    nav {
+      padding: 5px;
+    }
+
+    label {
+      margin-left: 25%;
+    }    
+  </style>
+</html>
