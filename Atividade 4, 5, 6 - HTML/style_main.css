@@ -1,0 +1,151 @@
+.header-img {
+    background-image: url("imgs/marco-zero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 400px;
+  }
+  
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .top-menu {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .top-menu a {
+    float: left;
+    color: #f2f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  .top-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .top-menu a.split {
+    float: right;
+    background-color: #02c0ff;
+    color: white;
+  }
+  
+  .header-txt {
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-top: 150px;
+    font-family: "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .info {
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: justify;
+    padding: 30px;
+  }
+  
+  .info2 {
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #02c0ff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .text {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 17px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

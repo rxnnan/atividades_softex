@@ -1,0 +1,98 @@
+.top-menu {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top-menu a {
+  float: left;
+  color: #f2f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.top-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top-menu a.split {
+  float: right;
+  background-color: #02c0ff;
+  color: white;
+}
+
+main {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 10px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.info {
+  text-align: justify;
+}
+
+.lugar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  border-radius: 10px;
+}
+
+.mySlides1, .mySlides2 {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

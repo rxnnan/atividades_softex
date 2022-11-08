@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Marco Zero</title>
+  </head>
+
+  <body style="margin:0;">
+    <header>
+      <div class="header-img">
+        <div class="container"></div>
+        <div class="top-menu">
+          <a href="main.html"><i class="fa fa-fw fa-home"></i>HOME</a>
+          <a href="#ondeficar"><i class="fa fa-fw fa-bed" style="margin-right:2px;"></i>ONDE FICAR</a>
+          <a href="side.html"><i class="fa fa-fw fa-map"></i>PONTOS TURÍSTICOS</a>
+          <a href="contato.html" class="split"><i class="fa fa-fw fa-envelope"></i>CONTATO</a>
+        </div>
+        <div class="header-txt">
+          <h1>Praça do Marco Zero</h1>
+        </div>
+      </div>
+    </header>
+    <div class="info">
+      <p>
+        A Praça Rio Branco, também conhecida como Marco Zero, é um espaço
+        público localizado no bairro do Recife da cidade homônima, capital de
+        Pernambuco. O local fica próximo ao Porto do Recife e abriga o Marco
+        Zero da cidade do Recife. É deste marco que são feitas todas as medidas
+        oficiais de distâncias rodoviárias locais.
+      </p>
+      <p>
+        Além do Marco Zero, existe na praça um busto do Barão do Rio Branco,
+        escultura do francês Félix Charpeutier, colocada ali em 1917, em bronze
+        com uma altura de 2,5m e foi inaugurada, sob um pedestal em pedra de
+        4,20m, esculpido por Corbiniano Vilaça, em 19 de agosto do mesmo ano.
+        Dando a obra uma altura de 7m.
+      </p>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="imgs/marco-zero.jpg" style="width: 100%" />
+        <div class="text">
+          Rosa dos ventos do pintor pernambucano Cícero Dias, no piso da Praça
+          do Marco Zero, no Recife Antigo.
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="imgs/recife.jpg" style="width: 100%" />
+        <div class="text">Letreiro do Recife no Marco Zero.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="imgs/marco.jpg" style="width: 100%" />
+        <div class="text">Marco zero de onde são contadas as distâncias.</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="script_main.js"></script>
+  </body>
+
+  <footer>
+    <hr style="border-top:3px solid #bbb;">
+    <div class="info2">
+      <h3>LOCALIZAÇÃO</h3>
+      <h4>AV. ALFREDO LISBOA, S/N - RECIFE, PE, 50030-150</h4>
+      <h5>COORDENADAS:<i class="fa fa-globe"></i> <a href="https://geohack.toolforge.org/geohack.php?pagename=Praça_Rio_Branco_(Recife)&params=8_03_47.4_S_34_52_16.1_W_" style="color:blue;" target="_blank"> 8° 3′ 47.4″ S, 34° 52′ 16.1″ W</a></h5>      
+    </div>
+  </footer>
+</html>
