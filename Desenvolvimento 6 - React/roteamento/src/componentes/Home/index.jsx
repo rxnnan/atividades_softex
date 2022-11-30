@@ -1,0 +1,1 @@
+export const Home = props => <h1>Desenvolimento feito por {props.nome}.</h1>
