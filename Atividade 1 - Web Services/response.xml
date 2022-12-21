@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: aplication/soap+xml; charset=utf-8 
+Content-Length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.empresaexemplo.com/consultaCliente">
+    <m:consultaClienteResponse>
+        <m:nome>João Pedro</m:nome>
+        <m:endereco>Rua XX-Bairro XX-Cidade XX</m:endereco>
+        <m:telefone>123456789</m:telefone>
+    </m:consultaClienteResponse>
+</soap:Body>
+</soap:Envelope>

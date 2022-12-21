@@ -1,0 +1,22 @@
+<!-- SOAP é um protocolo baseado em XML utilizado para troca de informações entre aplicativos distribuidos pela rede.
+SOAP proporciona uma maneira de comunicação entre aplicações através do protocolo HTTP. Este protocolo é padrão em todos os navegadores e servidores da internet. -->
+
+
+POST /consultaCliente HTTP/1.1
+Host: www.empresaexemplo.com
+Content-Type: aplication/soap+xml; charset=utf-8 
+Content-Length: nnn
+
+<?xml version="1.0"?>
+<!-- Toda mensagem SOAP precisa conter o elemento Envelope. Ele é o elemento raiz da mensagem SOAP. -->
+<soap:Envelope
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<!-- O elemento Body também é obrigatório. Ele vai conter a codificação de uma chamada a um método. -->
+<soap:Body xmlns:m="http://www.empresaexemplo.com/consultaCliente">
+    <m:consultaClienteRequest>
+        <m:cpf>12314512270</m:cpf>
+    </m:consultaClienteRequest>
+</soap:Body>
+</soap:Envelope>
+
+<!-- No exemplo acima, uma requisição consultaClienteRequest foi enviada para um servidor. A requisição tem um parâmetro cpf, e os parâmetros nome, endereco e telefone que serão retornados na resposta. O namespace da função é definido em "http://www.empresaexemplo.com/consultaCliente" -->
